@@ -28,3 +28,5 @@ jobs:
       # Runs my own workflow
       - name: Run a one-line script
         uses: adiechahk/sync-folder@master
+        with:
+          source: sync
